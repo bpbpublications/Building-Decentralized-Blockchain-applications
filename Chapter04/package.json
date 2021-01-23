@@ -1,0 +1,29 @@
+{
+  "name": "emailsign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asymmetric-crypto": "^1.0.2",
+    "bcrypt": "^3.0.5",
+    "bitcoinjs-lib": "^4.0.3",
+    "bitcoinjs-message": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "connect-redis": "^3.4.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "ipfs-api": "^26.1.2",
+    "orbit-db": "^0.20.0",
+    "orbit-db-identity-provider": "^0.1.1",
+    "react-localization": "^1.0.13",
+    "redis": "^2.8.0",
+    "uuid": "^3.3.2"
+  }
+}
